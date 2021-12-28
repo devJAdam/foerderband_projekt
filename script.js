@@ -1,8 +1,6 @@
 const intro = document.querySelector(".intro");
 const video = document.querySelector("video");
 
-// video.defaultPlaybackRate(0.5);
-
 const controller = new ScrollMagic.Controller();
 
 const scene = new ScrollMagic.Scene({
@@ -11,7 +9,6 @@ const scene = new ScrollMagic.Scene({
   triggerHook: 0,
   reverse: true,
 });
-scene.addIndicators();
 scene.setPin(intro);
 scene.addTo(controller);
 

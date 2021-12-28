@@ -17,130 +17,258 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="video">
-        <video src="video.mp4"></video>
-      </div>
-      <nav>
-        <a href="#hardware">Hardware</a>
-        <a href="#program">Program</a>
-        <a href="#raspberry-pi">Raspberry Pi</a>
-        <a href="#html-website">HTML-Website</a>
-      </nav>
+    <div class="video">
+      <video src="video.mp4"></video>
+    </div>
+    <nav>
+      <a href="#bedienungsanleitung">Bedienungsanleitung</a>
+      <a href="#projektbeschreibung">Projektbeschreibung</a>
+      <a href="#einzelne-elemente">Aufbau & Einzelne Elemente</a>
+      <a href="#arbeitsprozess">Arbeitsprozess</a>
+      <a href="#bilder">Bilder</a>
+    </nav>
 
+    <div class="container">
       <div class="heading">
         <h1>Förderband</h1>
         <h2>Projekt 2. Klasse</h2>
         <h3>Arushi + John Adam</h3>
       </div>
       <div class="content">
-        <section id="home"></section>
-
-        <section id="hardware">
-          <h3>Hardware</h3>
+        <section id="bedienungsanleitung">
+          <h3 class="section-title">Bedienungsanleitung</h3>
+          <ul>
+            <li>
+              Raspberry Pi mit Micro-USB einstecken. Dann einige Zeit warten bis
+              der Raspberry Pi bereit ist (max 1.5 minuten - Man erkennt, dass
+              der Raspberry Pi bereit ist, wenn der Sortierer in der Mitte ist.)
+            </li>
+            <li>
+              Koffer mit dem QR Code, der nach oben zeigt, unter der Kamera
+              platzieren.
+            </li>
+            <li>Auf den Knopf drücken, um die Sortierung zu starten.</li>
+          </ul>
           <p>
-            Lorem ipsum dolor sit amet, tale dolores ne eum. Ex mei unum
-            tacimates. Quo id nulla persius suscipiantur, usu ridens audiam
-            blandit ad. Sit et voluptatum reprimique, nec idque fuisset
-            moderatius te, usu iudicabit disputationi vituperatoribus ut. Eu vel
-            summo admodum accusam. Vix delenit voluptua te, ei nam altera
-            alterum referrentur, mea tamquam phaedrum te. Et causae tritani mel,
-            impedit reprimique cum at. Eos at decore apeirian, assum tempor
-            aliquid mei no. Ea esse graeco dissentias pro, at vix minim oratio
-            graecis. Nec ut nusquam scripserit, animal senserit suavitate an
-            sed. Sit ex quod eripuit forensibus, nec tota denique indoctum ne.
-            Ea nec graeco aliquam platonem, id vis decore lucilius, ut nec odio
-            scripta. Ceteros assueverit ut per, posse iusto populo mel ex, his
-            in affert labitur civibus. Est eu malis nusquam neglegentur, commodo
-            forensibus usu eu. Ne impetus nostrud nec, an cum novum delenit. No
-            has aperiri aliquid appetere, no sed lorem velit. Eius aperiri cum
-            ne, at qui porro utamur, ut meis solet ornatus sit. Eam cu nisl
-            eripuit mandamus. No agam nominavi assueverit est, eu labores
-            atomorum mea. An vel soleat theophrastus, sit alia electram at.
-            Animal malorum argumentum per et. Vix te audiam feugiat assentior.
-            Consul putent et vim, sea detracto principes id.
+            Achtung: Bevor man den nächsten Koffer auf das Band legt und erneut
+            auf den Knopf drückt, muss man warten, bis das Förderband anhält.
+          </p>
+          <p>
+            Mögliche Probleme: Es könnte sein, dass das Förderband klemmt. Dann
+            sollte man das Förderband leicht verschieben.
           </p>
           <hr />
         </section>
 
-        <section id="program">
-          <h3>Program</h3>
+        <section id="projektbeschreibung">
+          <h3 class="section-title">Projektbeschreibung</h3>
           <p>
-            Lorem ipsum dolor sit amet, tale dolores ne eum. Ex mei unum
-            tacimates. Quo id nulla persius suscipiantur, usu ridens audiam
-            blandit ad. Sit et voluptatum reprimique, nec idque fuisset
-            moderatius te, usu iudicabit disputationi vituperatoribus ut. Eu vel
-            summo admodum accusam. Vix delenit voluptua te, ei nam altera
-            alterum referrentur, mea tamquam phaedrum te. Et causae tritani mel,
-            impedit reprimique cum at. Eos at decore apeirian, assum tempor
-            aliquid mei no. Ea esse graeco dissentias pro, at vix minim oratio
-            graecis. Nec ut nusquam scripserit, animal senserit suavitate an
-            sed. Sit ex quod eripuit forensibus, nec tota denique indoctum ne.
-            Ea nec graeco aliquam platonem, id vis decore lucilius, ut nec odio
-            scripta. Ceteros assueverit ut per, posse iusto populo mel ex, his
-            in affert labitur civibus. Est eu malis nusquam neglegentur, commodo
-            forensibus usu eu. Ne impetus nostrud nec, an cum novum delenit. No
-            has aperiri aliquid appetere, no sed lorem velit. Eius aperiri cum
-            ne, at qui porro utamur, ut meis solet ornatus sit. Eam cu nisl
-            eripuit mandamus. No agam nominavi assueverit est, eu labores
-            atomorum mea. An vel soleat theophrastus, sit alia electram at.
-            Animal malorum argumentum per et. Vix te audiam feugiat assentior.
-            Consul putent et vim, sea detracto principes id.
+            Die mini-Gepäckstücke werden von den “Reisenden” auf ein Förderband
+            gelegt, welches auf Knopfdruck zu laufen beginnt. Die Gepäckstücke
+            sind ihrer Destination entsprechend mit einem bestimmten QR-Code
+            versehen. Zuerst wird der QR-Code von einer Kamera eingelesen. Je
+            nach QR-Code bzw. Destination dreht sich die Trennwand und bedeckt
+            dabei eine bestimmte Seite des Förderbandes ab, welches dann die
+            Richtung des Gepäcks bestimmt. Das Gepäck rollt dann auf dem
+            Förderband weiter und kommt anschliessend in den entsprechenden
+            Behälter. Die Gepäcksortierungsanlage wird mit Raspberry Pi
+            angesteuert.
           </p>
           <hr />
         </section>
 
-        <section id="raspberry-pi">
-          <h3>Raspberry Pi</h3>
-          <p>
-            Lorem ipsum dolor sit amet, tale dolores ne eum. Ex mei unum
-            tacimates. Quo id nulla persius suscipiantur, usu ridens audiam
-            blandit ad. Sit et voluptatum reprimique, nec idque fuisset
-            moderatius te, usu iudicabit disputationi vituperatoribus ut. Eu vel
-            summo admodum accusam. Vix delenit voluptua te, ei nam altera
-            alterum referrentur, mea tamquam phaedrum te. Et causae tritani mel,
-            impedit reprimique cum at. Eos at decore apeirian, assum tempor
-            aliquid mei no. Ea esse graeco dissentias pro, at vix minim oratio
-            graecis. Nec ut nusquam scripserit, animal senserit suavitate an
-            sed. Sit ex quod eripuit forensibus, nec tota denique indoctum ne.
-            Ea nec graeco aliquam platonem, id vis decore lucilius, ut nec odio
-            scripta. Ceteros assueverit ut per, posse iusto populo mel ex, his
-            in affert labitur civibus. Est eu malis nusquam neglegentur, commodo
-            forensibus usu eu. Ne impetus nostrud nec, an cum novum delenit. No
-            has aperiri aliquid appetere, no sed lorem velit. Eius aperiri cum
-            ne, at qui porro utamur, ut meis solet ornatus sit. Eam cu nisl
-            eripuit mandamus. No agam nominavi assueverit est, eu labores
-            atomorum mea. An vel soleat theophrastus, sit alia electram at.
-            Animal malorum argumentum per et. Vix te audiam feugiat assentior.
-            Consul putent et vim, sea detracto principes id.
-          </p>
+        <section id="einzelne-elemente">
+          <h3 class="section-title">Aufbau: Die einzelnen Elemente</h3>
+          <ul>
+            <li>
+              <h6>Gepäck und QR-Codes:</h6>
+              <p>
+                Die Gepäckstücke sind mit QR-Codes versehen und kommen nach der
+                erfolgreichen Sortierung in den entsprechenden Behälter.
+              </p>
+            </li>
+            <li>
+              <h6>Förderband:</h6>
+              <p>
+                Das Förderband wurde vollständig 3D- gedruckt und wird mit einem
+                Servo 360 Motor angetrieben.
+              </p>
+            </li>
+
+            <li>
+              <h6>Sortierer:</h6>
+              <p>
+                Die eigentliche Trennwand ist eine rechteckig und wurde
+                3D-gedruckt. Es ist an einem Servo Motor befestigt. Der Motor
+                steuert die Bewegung der Trennwand.
+              </p>
+            </li>
+
+            <li>
+              <h6>Holzgerüst:</h6>
+              <p>
+                Dieses Gerüst dient Hauptsächlich als Halterung. An dieser
+                Holzkonstruktion, der Raspberry Pi befestigt ist. Weiter vorne
+                ist die Kamera dran befestigt und am hinteren Ende ist der Motor
+                mit der Trennwand angemacht.
+              </p>
+            </li>
+
+            <li>
+              <h6>Das Programm:</h6>
+              <p>
+                Die Anlage wird mit dem Raspberry Pi angesteuert. Die QR-Codes
+                werden mit einer Kamera eingelesen. Für das Programm wurde
+                Python im Zusammenhang mit OpenCV benutzt. OpenCV hat einen
+                QR-Code-Detektor, mit dem leichten QR-Code in Bildern finden
+                kann. Das ganze Programm wurde in einer Datei geschrieben.
+                Sobald der Knopf gedrückt wird, wird nach QR-Codes gesucht.
+                Falls einer gefunden wird, wird der Koffer sortiert, sonst wird
+                die While-Loop nach 15 Sekunden abgebrochen.
+              </p>
+            </li>
+          </ul>
           <hr />
         </section>
 
-        <section id="html-website">
-          <h3>HTML-Website</h3>
-          <p>
-            Lorem ipsum dolor sit amet, tale dolores ne eum. Ex mei unum
-            tacimates. Quo id nulla persius suscipiantur, usu ridens audiam
-            blandit ad. Sit et voluptatum reprimique, nec idque fuisset
-            moderatius te, usu iudicabit disputationi vituperatoribus ut. Eu vel
-            summo admodum accusam. Vix delenit voluptua te, ei nam altera
-            alterum referrentur, mea tamquam phaedrum te. Et causae tritani mel,
-            impedit reprimique cum at. Eos at decore apeirian, assum tempor
-            aliquid mei no. Ea esse graeco dissentias pro, at vix minim oratio
-            graecis. Nec ut nusquam scripserit, animal senserit suavitate an
-            sed. Sit ex quod eripuit forensibus, nec tota denique indoctum ne.
-            Ea nec graeco aliquam platonem, id vis decore lucilius, ut nec odio
-            scripta. Ceteros assueverit ut per, posse iusto populo mel ex, his
-            in affert labitur civibus. Est eu malis nusquam neglegentur, commodo
-            forensibus usu eu. Ne impetus nostrud nec, an cum novum delenit. No
-            has aperiri aliquid appetere, no sed lorem velit. Eius aperiri cum
-            ne, at qui porro utamur, ut meis solet ornatus sit. Eam cu nisl
-            eripuit mandamus. No agam nominavi assueverit est, eu labores
-            atomorum mea. An vel soleat theophrastus, sit alia electram at.
-            Animal malorum argumentum per et. Vix te audiam feugiat assentior.
-            Consul putent et vim, sea detracto principes id.
-          </p>
+        <section id="arbeitsprozess">
+          <h3 class="section-title">Arbeitsprozess</h3>
+          <ul>
+            <li class="bildElement" id="planung">
+              <div>
+                <h6>Planung:</h6>
+                <p>
+                  Wir sind schnell auf die Grundidee unserer Anlage gestossen.
+                  Der erste Schritt nach der Ideensammlung war mehrere Skizzen
+                  zu unserem Projekt zu erstellen. Wir haben uns einen Groben
+                  Zeitplan gemacht und die Aufgaben aufgeteilt. Es fand ein
+                  stetiger Austausch über den Forstschritt der Arbeit zwischen
+                  uns statt. Wir haben die einzelnen Elemente individuell
+                  vorbereitet und zu einem späteren Zeitpunkt zusammengefügt.
+                </p>
+              </div>
+
+              <img src="images/planung.png" alt="" />
+            </li>
+            <li id="qr-code">
+              <h6>Gepäck, QR-Codes und Behälter:</h6>
+              <p>
+                Die Mini- Gepäckstücke sind Zündholzschachteln, die mit farbigem
+                Papier beklebt wurden. Die QR-Codes wurden mit Hilfe einer
+                <a href="https://www.the-qrcode-generator.com/">Website</a>
+                (25.11.21) generiert . Sie wurden danach auf die Gepäckstücke
+                geklebt. Den Behälter haben wir aus einer alten Müslischachtel
+                gebastelt.
+              </p>
+            </li>
+
+            <li>
+              <h6 id="foerderband">Förderband:</h6>
+              <p>
+                Wir wollten zuerst das Förderband aus Holz und Zahnriemen bauen.
+                Jedoch haben wir keine zufriedenstellende Zahnriemen gefunden.
+                Da sind wir auf die Idee gekommen das Band aufgrund der hohen
+                Personalisierbarkeit mit einem 3D-Drucker auszudrucken. Nach
+                kurzer Suche im Internet sind wir auf ein Förderband gestossen,
+                welches komplett 3D-gedruckt wurde. Wir haben uns dann
+                beschlossen dies ebenfalls zu tun. Die fertigen STL-Dateien
+                haben wir auf der
+                <a href="https://www.thingiverse.com/thing:3167670"
+                  >Webseite «Thingiverse»</a
+                >
+                (15.10.21) gefunden. Der 3D-Druck dauerte sehr lange. Das
+                Förderband ist von Innen mit Holz gestützt. Die einzelnen Teile
+                des Bandes werden mit PLA-Filamentstücke zusammengehalten. Diese
+                mussten wir zuschneiden und danach einfädeln. Eines der grössten
+                Schwierigkeiten war es die richtige Anzahl an «Links» für das
+                Band zu haben. Weitere kleine Anpassungen mussten vorgenommen
+                werden, bis wir die gewünschte «Geschmeidigkeit» erzielt hatten.
+                Wir konnten zunächst keinen Motor finden der stark genug war, um
+                das Band anzutreiben. Wir haben einen Stepper Motor und einen
+                DC-Motor ausprobiert. Schlussendlich hat es mit einem 360 Servo
+                Motor funktioniert. Wir mussten eine Kupplung designen, um den
+                Motor mit der Achse des Förderbands zu verbinden. Die Kupplung
+                ist ein kleiner Plastikzylinder mit Einkerbungen, die der Grösse
+                und Form der Achsen entsprechen. Eine weitere Schwierigkeit war
+                die Kupplung jedes Mal neu zu designen und auszudrucken.
+              </p>
+              <div class="foerderband-bilder">
+                <img src="images/foerderband_1.png" alt="" />
+                <img src="images/foerderband_2.jpg" alt="" />
+                <!-- <img src="images/foerderband_3.png" alt="" /> -->
+              </div>
+            </li>
+
+            <li class="bildElement" id="sortierer">
+              <div>
+                <h6>Der Sortierer:</h6>
+                <p>
+                  Wir hatten mehrere Ideen über wie die Sortierung geschehen
+                  könnte. Am funktionstüchtigsten war ein Dividier bzw.
+                  Trennwand, der eine Seite des Förderbands absperrt und somit
+                  dem Gepäck eine bestimmte Richtung vorgibt. Die rechteckige
+                  Trennwand haben wir selbst mit dem Programm Autodesk Fusion
+                  designed und haben es ebenfalls mit einem 3D-Drucker an der
+                  Schule ausgedruckt. Die Trennwand wird mit einem 180° Servo
+                  Motor bewegt.
+                </p>
+              </div>
+
+              <img src="images/sortierer.png" alt="" />
+            </li>
+
+            <li class="bildElement" id="holzgerüst">
+              <div>
+                <h6>Holzgerüst:</h6>
+                <p>
+                  Nachdem wir alle nötigen Maße für das Gerüst hatten, haben wir
+                  das Holz zurecht gesägt. Diese Holzkonstruktion wird durch
+                  Nägel zusammenhalten. Die anderen Elemente des Projekts wurden
+                  dann angeschraubt bzw. angeklebt.
+                </p>
+              </div>
+              <img src="images/holzkonstruktion.png" alt="" />
+            </li>
+            <li id="zusammenbau">
+              <h6>Zusammenbau der ganzen Anlage:</h6>
+              <p>
+                Das Förderband muss zuerst platzierten werden. Danach stellt man
+                das Gerüst und den Behälter an ihren Plätzen hin. Wir haben Tape
+                benutzt um die ganzen Kabel unter Kontrolle zu bekommen.
+              </p>
+            </li>
+            <li id="programm">
+              <h6>Das Programm:</h6>
+              <p>
+                Wir haben zuerst probiert es mit dem ESP32 hinzubekommen, aber
+                weil der ESP Micro Python benutzt und auch weil es keinen guten
+                Driver für die Kamera hat, haben wir uns entschieden den
+                Raspberry Pi zu verwenden. Mit dem Raspberry, der Raspi Cam und
+                OpenCV war es dann ziemlich leicht QR-Codes zu lesen.
+              </p>
+            </li>
+            <li id="html-dokumentation">
+              <h6>HTML-Dokumentation</h6>
+              <p>
+                Die Bilder für die Webseite wurden während dem Arbeiten gemacht.
+                Die HTML-Dokumentation wurde mit CSS gestyled. Wir zudem 3rd
+                Party Library verwendet (Scrollmagic, Google Fonts), um den
+                Effekt des Abspielen des Videos während dem Scrollen zu
+                erreichen und um eine andere Schriftart zu benutzen. Die
+                Webseite wurde online gestellt damit beide sehr einfach Zugang
+                haben.
+              </p>
+            </li>
+          </ul>
+          <hr />
+        </section>
+        <section id="bilder">
+          <h3 class="section-title">Bilder</h3>
+          <div class="bilder">
+            <img class="img1" src="images/projekt-vorne.jpg" alt="" />
+            <img class="img2" src="images/projekt-seite.jpg" alt="" />
+            <img class="img3" src="images/projekt-oben.jpg" alt="" />
+          </div>
           <hr />
         </section>
       </div>
